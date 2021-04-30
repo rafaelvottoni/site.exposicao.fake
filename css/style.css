@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.name {
+    float: left;
+    padding-left: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+}
+
+.exposition {
+    margin: 0;
+    padding: 0;
+}
+
+.header2 {
+    float: right;
+    text-align: right;
+    position: static;
+    margin-right: 60px;
+    padding-top: 15px;
+}
+
+.clock {
+    display: inline-block;
+    width: 23px;
+    text-align: right;
+    position: relative;
+    top: 6px;
+}
+
+.timeTable {
+    display: inline-block;
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 550;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    border: 2px solid black;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 550;
+}
+
+.menu {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.list1 {
+    float: left;
+    color: black;
+    margin-right: 35px;
+    padding-bottom: 20px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.photo {
+    margin: 0;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    /* a imagem cobre todo o fundo, mesmo distorcendo suas proporçoes, se colocar
+    cover ele mantem a imagem na sua proporção*/
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.link3 {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link3:hover {
+    text-decoration: none;
+    background-color: #80101A;
+    color: white;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.lista2 {
+    list-style-type: none;
+    padding-top: 200px;
+}
+
+.linha1 {
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.linha2 {
+    padding-bottom: 35px;
+    font-size: 45px;
+}
+
+.linha3 {
+    padding-bottom: 35px;
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+.information {
+    display: block;
+    margin: 0;
+    background-color: #25282E;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #25282E;
+    position: relative;
+}
+
+.lista3 {
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    position: static;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.linha4 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: static;
+  
+}
+
+.linha5 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: static;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+.linha6 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    
+}
+
+.titulos {
+    font-size: 25px;
+    display: inline-block;
+    padding-left:10px;
+}
+
+.link4 {
+    text-decoration: none;
+    background-color: #25282E;
+    color: #DFDFDF;
+    border: 2px solid #DFDFDF;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link4:hover {
+    text-decoration: none;
+    background-color: #80101A;
+    color: white;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.icon {
+    width: 40px;
+    color: #DFDFDF;
+    float: left;
+}
